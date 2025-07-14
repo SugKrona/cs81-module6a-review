@@ -83,4 +83,4 @@ console.log("\n--- Testing removeSongByTitle ---");
 myMix.removeSongByTitle("Chillhop Beats"); // It removes a song
 myMix.listSongs(); // List songs to see if it was removed
 myMix.removeSongByTitle("Non-existent Song"); // if it tries to remove a song not there
-myMix.listSongs(); 
+myMix.listSongs(); // The list will stay unchanged.
